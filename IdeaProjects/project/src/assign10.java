@@ -8,7 +8,7 @@ public class assign10 {
         System.out.println("Enter number of digit or count");
         int n = sc.nextInt();
         int a[] = new int[n];
-        System.out.println("Enter values");
+        System.out.println("Enter values separated with space");
         for( i = 0; i < n; i++)
         {
             a[i] = sc.nextInt();
