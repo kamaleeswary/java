@@ -6,12 +6,7 @@ public class assign5 {
         try {
         System.out.println("Enter the number of element in an array: ");
         int n=input.nextInt();
-       /* int number = input.nextInt();
-        int[] number = readNumsFromCommandLine();
-        while ((number = input.nextInt()) != 0) {
-            total += number;
-        }
-        System.out.println(total);*/
+     
                int[] array = new int[n];
                System.out.println("Enter the elements:");
                for (int i = 0; i < n; i++) {
